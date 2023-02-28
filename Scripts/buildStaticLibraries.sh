@@ -29,7 +29,7 @@ mkdir -p DerivedData
 for platform in ${platforms[@]}
 do
   destination=""
-  if [[ "$platform" == "os" ]]
+  if [[ "$platform" == "OS" ]]
   then
     destination="generic/platform=iOS"
   else
