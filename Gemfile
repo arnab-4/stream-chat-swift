@@ -7,7 +7,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'cocoapods', '>= 1.12.1'
 gem 'danger'
 gem 'danger-commit_lint'
-gem 'fastlane'
+gem 'fastlane', '>= 2.212.0'
 gem 'fastlane-plugin-lizard'
 gem 'jazzy'
 gem 'json'
